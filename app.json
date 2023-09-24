@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Zamep Mobile",
+    "slug": "zamep-mobile",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/large_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/zamep_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zamep.clients"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/large_icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.zamep.clients",
+      "versionCode": 9
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "bucket": "",
+      "authorizationHeader": "YWRtaW5AemFtZXAubW9oei5nby50ejpBZG1pbjEyMw==",
+      "tokenHeader": "",
+      "baseURL": "https://zamepmrc.or.tz/api/",
+      "eas": {
+        "projectId": "de021039-2f24-47e9-a703-4a995129747d"
+      }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logo.png",
+          "color": "#ffffff",
+          "mode": "production"
+        }
+      ]
+    ]
+  }
+}
